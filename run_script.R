@@ -38,5 +38,5 @@ TimeSeries<-rbind(testTimeSeries,trainTimeSeries)
 TimeSeriesMeanStd<-TimeSeries[,c(1,2,grep("\\.mean\\.|\\.std\\.",names(TimeSeries)))]
 
 # OBJECTIVE 5: Averages all data past column 2 (i.e. all sensor data) by both Subject and Activity using aggregate command
-TimeSeriesMeanStdSummary<-aggregate(TimeSeriesMeanStd[, -(1:2)],by=list(Subject=TimeSeriesMeanStd$Subject,Activity=TimeSeriesMeanStd$Activity),FUN = mean)
+MeanStdSummary<-aggregate(TimeSeriesMeanStd[, -(1:2)],by=list(Subject=TimeSeriesMeanStd$Subject,Activity=TimeSeriesMeanStd$Activity),FUN = mean)
 
