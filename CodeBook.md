@@ -1,5 +1,7 @@
 The final output variable `MeanStdSummary` is a data frame containing 68 columns. The first two are "Subject" and "Activity," the subject index and activity description, respectively. The following 66 columns consist of averages of the mean() and std() components of the data described below.
 
+See ReadMe.md for a description of all operations performed on the data.
+
 *The Following Quoted from Dataset*
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals `tAcc-XYZ` and `tGyro-XYZ`. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (`tBodyAcc-XYZ` and `tGravityAcc-XYZ`) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
