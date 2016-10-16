@@ -1,4 +1,4 @@
-The final output variable `MeanStdSummary` is a data frame containing 68 columns. The first two are "Subject" and "Activity," the subject index and activity description, respectively. The following 66 columns consist of the mean() and std() components of the data described below.
+The final output variable `MeanStdSummary` is a data frame containing 68 columns. The first two are "Subject" and "Activity," the subject index and activity description, respectively. The following 66 columns consist of averages of the mean() and std() components of the data described below.
 
 *The Following Quoted from Dataset*
 
